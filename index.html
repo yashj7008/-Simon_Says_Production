@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simons Says</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="maxScore">Highest Score:</div>
+    <div class="gameBody">
+        <h1 id="letsPlay" >Let's Play!</h1>
+        <div id="gameOverMessage" style="display: none;"></div>
+        <div class="game" id="mainCircle" >
+            <div class="grid_circle">
+                <div class="cell" id="green"></div>
+                <div class="cell" id="red"></div>
+                <div class="cell" id="yellow"></div>
+                <div class="cell" id="blue"></div>
+            </div>
+            <div class="innerCircle">
+                <div id="turn"></div>
+                <div class="text">COUNT</div>
+                <button class="button" id="start">Start</button>
+                <input type="checkbox" class="toggle" id="on">
+                <div>On</div>
+                
+            </div>
+            
+        </div>
+
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
