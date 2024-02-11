@@ -134,6 +134,7 @@ body{
   font-size: 25px;
   top: 25px;
   right: 100px;
+  margin: 0;
 }
 
 @media (max-width: 600px) {
@@ -156,19 +157,18 @@ body{
     height: 150px; /* Optionally adjust inner circle size */
 }
 
-#maxScore {
-    right: 50vw; /* Adjustments for other elements if needed */
-}
-
   #letsPlay {
     visibility: hidden;
   }
   #maxScore{
     position: absolute;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     top: 25px;
-    right: 50vw;
+    text-align: center;
+    left: 0;
+    right: 0;
+    
   }
   #turn{
     height: 20px;

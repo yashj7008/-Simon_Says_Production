@@ -196,7 +196,7 @@ function gameturn(){    // This function is only for computer default work
   
   function check(){
      // Condition when player win
-    if(playerOrder.length == 3 && Playergood ){
+    if(playerOrder.length == 8 && Playergood ){
       winGame();
     }
     // Condtion when player failed
